@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: AA82107493-ingress
+  name: aa82107493-ingress
 spec:
   ingressClassName: ingress-internal
   rules:
@@ -11,7 +11,7 @@ spec:
       - path: /
         backend:
           service:
-            name: AA82107493
+            name: aa82107493
             port:
               number: 8080
         pathType: Prefix
