@@ -54,7 +54,7 @@ jobs:
       uses: azure/docker-login@v1
       with:
         login-server: ${{ secrets.STAPACR_LOGIN_SERVER }}
-        username: ${{ secrets.REGISTRY_CICD__USERNAME }}
+        username: ${{ secrets.REGISTRY_CICD_USERNAME }}
         password: ${{ secrets.REGISTRY_CICD_PASSWORD }}
     
     - run: |
