@@ -28,4 +28,4 @@ management:
         include: "*"
 
 pvc:
-  path: /mnt/aa82107493
+  path: /mnt/82107493
